@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0 ;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    background-color: #f5f5f5;
+    font-family: "Poppins", sans-serif;
+    font-weight: 480;
+    font-style: normal;
+   
+}
+
+.container{
+    height: 100%;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+}
+
+.contatos{
+    background-color: #f5f5f5;
+    border: 1px solid rgb(255, 0, 255);
+    padding: 5px;
+    min-width: 350px;
+}
+
+.area-contato{
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    padding: 5px;
+    border-radius: 5px;
+    gap: 5px;
+}
+
+.perfil{
+    width: 69px;
+}
+
+.perfil img{
+    width: 100%;
+    border-radius: 50%;
+    border: 1px solid purple;
+    vertical-align: middle;
+}
+
+.titulo-1{
+    font-size: 18px;
+    font-weight: 800;
+}
+
+.subtitulo-1{
+    font-size: 13px;
+
+}
+
+.grupo-texto{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.conteudo{
+    width: 100%;
+}
+
+.topo-conteudo{
+    display: flex;
+    flex-direction: row;
+    height: 70px;
+    width: 100%;
+    background-color: #f5f5f5;
+    gap: 50px;
+    padding: 10px;
+}
+
+.logo{
+    width: 49px;
+}
+
+.logo img{
+    width: 100%;
+    border-radius: 50%;
+    border: 1px solid purple;
+}
+
+
+.area-envio-msg{
+    display: flex;
+    height: 98%;
+    background-color: rgb(255, 153, 0);
+    justify-content: center;
+    align-items: end;
+    
+
+}
+
+.col-input input{
+    width: 1400px;
+    height: 50px;
+    padding: 30px;
+    margin-bottom: 30px;
+    font-family: "Parkinsans", sans-serif;
+    font-size: 22px;
+    border-radius: 20px;
+    border: 3px solid black;
+}
+ 
+.enviar img{
+    display: flex;
+    align-items: center;
+    height: 60px;  
+    margin-bottom: 30px;
+    padding: 5px;
+    border-radius: 20px;
+    border: 3px solid black;
+}
+ 
+input::placeholder{
+    font-size: 20px;
+    font-family: "Parkinsans", sans-serif;
+ 
+}
+ 
+.enviar img:hover{
+    cursor: pointer;
+}
+
